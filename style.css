@@ -68,10 +68,10 @@ body{
 .answers{
     margin:10px 20px;
 }
-.answers>span{
+.answers>label{
     margin-left: 10px;
 }
-.answers>span:hover{
+.answers>label:hover{
     color: darkcyan;
 }
 .questions button{
