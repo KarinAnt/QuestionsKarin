@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+}
+body{
+    background: linear-gradient(to right, rgba(50, 168, 154,0), rgba(50, 168, 82, 0.6)), url(images/planet_earth.jpg) no-repeat ;
+    background-size:cover;
+}
+.all{
+    width:40%;
+    margin: 100px auto;
+    padding: 30px;
+    flex-direction: column;
+    background-color: #d5edea;
+    border-radius: 10px;
+    box-shadow: 1px 3px 27px #0f302c;
+}
+.start{
+    display:flex;
+}
+.start>p{
+    text-align: center;
+    font-size: 25px;
+    color:#0f302c;
+    margin:20px 0;
+    font-family: 'Rubik', sans-serif;
+}
+.start>input{
+    width: 70%;
+    align-self: center;
+    margin:30px 0;
+    border: none;
+    background-color: #d5edea;
+    border-bottom:1px solid silver;
+    font-size: 20px;
+}
+.buttons{
+    margin:30px 0;
+    padding:10px;
+    border:none;
+    color: white;
+    background:#0f302c;
+    border-radius: 10px;
+}
+.start>button{
+    align-self: center;
+    width:50%;
+    font-size: 2em;
+}
+.buttons:hover{
+    background: #256b63;
+}
+.questions{
+    color:#0f302c;
+    font-family: 'Rubik', sans-serif;
+    display: none;
+}
+.username{
+    align-self:flex-end;
+    border-bottom: 1px solid;
+}
+.question{
+    margin:10px 0;
+    font-size: 2em;
+}
+.answers{
+    margin:10px 20px;
+}
+.answers>span{
+    margin-left: 10px;
+}
+.answers>span:hover{
+    color: darkcyan;
+}
+.questions button{
+    font-size: 18px;
+}
+#next{
+    text-align: right;
+}
+#buttons{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+#result{
+    display: none;
+    width: 60%;
+    margin-top:30px;
+    font-family: 'Rubik', sans-serif;
+    flex-direction: column;
+}
+#result>p{
+    margin:20px 0;
+}
+.pquestions{
+    font-size: 2em;
+    color:#0f302c;
+}
+.trueanswer{
+    color: darkcyan;
+    font-size: 20px;
+    margin-left:10px;
+}
+.useranswer{
+    color: #a83232;
+    font-size: 20px;
+    margin-left:10px;
+}
+.truefalseimg{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+#newgame{
+    font-size: 18px;
+}

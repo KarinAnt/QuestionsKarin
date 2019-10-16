@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Rubik&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="start all" id="start">
+            <p>There are 5 questions in the survey, related to geography. Wish you good luck.</p>
+            <input type="text" name="" id="username" placeholder="Name">
+            <button id="startbutton" class="buttons">Start</button>
+        </div>
+        <div class="questions all" id="questions">
+            <p class="username" id="pusername">User Name</p>
+            <p class="question" ><span id="idn">1.</span><span id="question">Questions</span></p>
+            <div class="answers">
+                <input type="radio" name="one">
+                <span class="answersspan">1</span>
+            </div>
+            <div class="answers">
+                <input type="radio" name="one">
+                <span class="answersspan">2</span>
+            </div>
+            <div class="answers">
+                <input type="radio" name="one">
+                <span class="answersspan">3</span>
+            </div>
+            <div class="answers">
+                <input type="radio" name="one">
+                <span class="answersspan">4</span>
+            </div>
+            <div id="buttons">
+                <button class="buttons" id="end">End</button>
+                <button class="buttons" id="next">Next</button>
+                <button class="buttons" id="back">Back</button>
+            </div>
+        </div>
+        <div class="all" id="result">
+            <button class="buttons" id="newgame">New Game</button>
+            <p class="username" id="nameandpoints"></p>
+        </div>
+        <script src="js.js"></script>
+    </body>
+</html>
